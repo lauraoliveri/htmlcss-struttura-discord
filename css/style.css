@@ -4,3 +4,161 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* DEBUG */
+.header-top {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.header-bottom {
+    background-color: darkblue;
+    padding: 40px 0;
+
+}
+
+.container-box {
+    width: 50%;
+    height: 350px;
+    background-color: darkmagenta;
+    margin: 0 auto;
+    border-style: dashed;
+    border-radius: 1%;
+    border-color: yellow;
+}
+
+.column {
+    border-style: dashed;
+    border-color: 1px black;
+    display: inline-block;
+    padding: 0 5px;
+    background-color: darkgoldenrod;
+    
+}
+
+.column,.bo {
+    width: 10%;
+}
+
+.column,.ba {
+    flex-grow: 1;
+}
+
+/* section 1 */
+.container2 {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.box1 {
+    width: 40%;
+    height: 500px;
+    background-color:#1E90FF;
+    border-style: dashed;
+    border-color: black;
+}
+
+.box2 {
+    width: 30%;
+    height: 500px;
+    background-color:#FFC0CB;
+    border-style: dashed;
+    border-color: black;
+    padding: 40px 0;
+}
+
+/* section 2 */
+.container3 {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    background-color: #D3D3D3;
+}
+
+.box4 {
+    width: 40%;
+    height: 500px;
+    background-color: #1E90FF;
+    border-style: dashed;
+    border-color: black;
+}
+
+.box3 {
+    width: 30%;
+    height: 500px;
+    background-color:#FFC0CB;
+    border-style: dashed;
+    border-color: black;
+    padding: 40px 0;
+}
+
+/* section 5 */
+.container4 {
+    background-color:#D3D3D3;
+    padding: 40px;
+}
+
+#box {
+    background-color: #228B22;
+    width: 900px;
+    height: 800px;
+    border-style: dashed;
+    border-color: black;
+    margin: 0 auto;
+
+}
+
+/* footer*/
+.footercontainer {
+    background-color:#23272A;
+
+}
+
+.flex1 {
+    background-color: #F08080;
+    border-style: dashed;
+    border-color: black;
+    width: 800px;
+    height: 500px;
+}
+.flex2-3-4-5 {
+    border-color: #3c3a3a;
+    border-style: dashed;
+    background-color: #20B2AA;
+    width:500px;
+
+}
+
+.footersection1 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px 0 30px 0;
+}
+
+.hrfooter {
+   margin: 0 auto;
+}
+
+.containerfoot {
+    background-color: aquamarine;
+    width: 700px;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content:space-between
+}
+
+.logo-button {
+    background-color: #FFB6C1;
+    border-style: dashed;
+    border-color: black;
+    padding: 5px;
+}
+.margfoot {
+    padding-top: 10px;
+}

@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+.my-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* DEBUG */
 .header-top {
     display: flex;
@@ -29,21 +34,19 @@
     border-color: yellow;
 }
 
-.column {
+.my-row {
     border-style: dashed;
     border-color: 1px black;
-    display: inline-block;
     padding: 0 5px;
     background-color: darkgoldenrod;
-    
 }
 
-.column,.bo {
-    width: 10%;
+.column-first {
+    width: 500px
 }
 
-.column,.ba {
-    flex-grow: 1;
+.column-second {
+    width: 50%;
 }
 
 /* section 1 */
@@ -125,7 +128,7 @@
     height: 500px;
 }
 .flex2-3-4-5 {
-    border-color: #3c3a3a;
+    border-color: #ffffff;
     border-style: dashed;
     background-color: #20B2AA;
     width:500px;

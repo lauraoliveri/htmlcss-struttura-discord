@@ -12,8 +12,6 @@
 
 /* DEBUG */
 .header-top {
-    display: flex;
-    justify-content: center;
     background-color: aquamarine;
     padding: 10px;
 }
@@ -37,16 +35,30 @@
 .my-row {
     border-style: dashed;
     border-color: 1px black;
-    padding: 0 5px;
     background-color: darkgoldenrod;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .column-first {
-    width: 500px
+    width: 20%;
+    border-color: black;
+    padding: 5px;
 }
 
 .column-second {
-    width: 50%;
+    width: 60%;
+    border-color: black;
+    padding: 5px;
+    text-align: center;
+}
+
+.column-third {
+    width:20%;
+    border-color: black;
+    padding: 5px;
+    text-align: end;
 }
 
 /* section 1 */
